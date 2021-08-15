@@ -9,7 +9,7 @@ This plugin uses [IPC](https://en.wikipedia.org/wiki/Inter-process_communication
 # Features
 
 * Accurate anti-wallhack (tackles small holes, secondary visibility and much more: see [here](https://honestgaming.io/sauray.html) for more details).
-* Adaptive support for ultra-high-latency (under improvement)
+* Ultra-high-latency support via specialized lookaheads
 * Sound origin randomization
 * Supports instances with more than one daemon (see [Server launch procedure](#server-launch-procedure))
 * A simple pipeline for map conversion to SauRay consumable form (see [Content preparation pipeline](#content-preparation-pipeline))
@@ -17,7 +17,6 @@ This plugin uses [IPC](https://en.wikipedia.org/wiki/Inter-process_communication
 # Potential features (will be implemented with sufficient demand)
 
 * Linux support
-* Better fallback than PVS for ultra-high-latency scenarios (currently under implementation)
 * [traceroute](https://en.wikipedia.org/wiki/Traceroute) support for detecting artificially-high-latency players.
 
 # Compilation procedure (Windows)
